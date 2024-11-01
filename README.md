@@ -26,13 +26,13 @@ BinaryBattles is a C++ project that implements a collection of two-player games 
 ### Compiling a DLL for a Game
 To compile the Rock-Paper-Scissors (RPS) game as a DLL, use the following command:
 ```bash
-g++ -shared -o games/rps.dll src/rps.cpp
+g++ -shared -o rps.dll rps.cpp
 ```
 
 ### Compiling the Main Menu Application
 To compile the main application that includes the menu, use:
 ```bash
-g++ src/main.cpp src/Menu.cpp -o BinaryBattles
+g++ main.cpp Menu.cpp -o BinaryBattles
 ```
 
 ## Running the Games
